@@ -12,7 +12,7 @@ const app = express()
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send("Working")
+    res.send("Welcome to the Backend   Read documents-provided in github to use Routings")
 })
 
 app.use("/student",studentRouter)
